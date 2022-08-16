@@ -6,7 +6,7 @@ public class Main {
 //        myAccount.getName();
 //        myAccount.getBalance();
 
-        System.out.println(myAccount.toString());
+        System.out.println(myAccount);
 
         //MVP Task 1
         Circle myCircle = new Circle(5);
@@ -28,7 +28,7 @@ public class Main {
         //MVP Task 3
         Customer myCustomer = new Customer("Sakusan","Puwan",100);
         myCustomer.subtractHeldMoney(20);
-        System.out.println(myCustomer.toString());
+        System.out.println(myCustomer);
 
         // Ext 1
         Account_ext myAccount_ext = new Account_ext("1",myCustomer,100);
