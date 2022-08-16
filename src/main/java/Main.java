@@ -30,6 +30,7 @@ public class Main {
         myCustomer.subtractHeldMoney(20);
         System.out.println(myCustomer.toString());
 
+        // Ext 1
         Account_ext myAccount_ext = new Account_ext("1",myCustomer,100);
 
 
